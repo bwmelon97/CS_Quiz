@@ -18,5 +18,8 @@ Y6 := ${X8}
 Y7 := ${X3}
 Y8 := ${X7}
 
+hi:
+	$(info Hello)
+
 say_flag:
 	$(info The flag is: ${Y4}${Y7}${Y3}${Y5}${Y1}${Y7}${Y2})
